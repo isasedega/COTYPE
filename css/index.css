@@ -903,15 +903,51 @@ p{
 }
 
 
+@media (max-width: 900px){
+    .Subbanner-movil{
+        margin-top: -2rem;
+        
+
+    }
+}
+
+
 
 @media (max-width: 900px){
-    .Subbanner-wrapper--type{
-        padding: 1rem 8rem 1rem 8rem ;
-        margin: -1rem 0 0 0;
+    .Subbanner-wrapper--type--movil{
+        position: sticky;
+        top: 5rem;
+        z-index: 1;
+        width: 100%;
+        padding: 1rem 10.5rem;
         background-color: black;
 
     }
 }
+
+@media (max-width: 900px){
+    .Subbaner-wrapper--size--movil{
+        position: sticky;
+        top: 8rem;
+        z-index: 1;
+        width: 100%;
+        padding: .5rem 9rem;
+        background-color: white;
+
+    }
+}
+
+.tamano-tipo-movil input{
+    appearance: none;
+    width: 150px;
+    height: 2px;
+    color: black;
+    
+}
+
+
+
+
 
 .Max{
     color: white;
@@ -1023,6 +1059,10 @@ p{
     z-index: 1;
 }
 
+
+
+
+
 @media (max-width: 900px ){
     .Subbanner{
         overflow: hidden;
@@ -1095,7 +1135,7 @@ p{
 
 @media (max-width: 900px){
     .Subbanner-wrapper{
-        flex-flow: column;
+        display: none;
     }
     
 }
@@ -1106,6 +1146,7 @@ p{
     justify-content: space-evenly;
     align-items: center;
 }
+
 
 
 
